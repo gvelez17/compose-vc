@@ -10,6 +10,8 @@
   "dependencies": {
     "@digitalbazaar/vc": "^5.0.0",
     "@digitalbazaar/vc-status-list-context": "^3.0.1",
+    "@digitalcredentials/dcc-context": "^1.0.0",
+    "@digitalcredentials/did-method-key": "^2.0.3",
     "@digitalcredentials/vc": "^4.1.1",
     "@interop/did-web-resolver": "^3.0.0",
     "@oclif/core": "^1.16.4",

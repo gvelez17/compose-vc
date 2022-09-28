@@ -1,10 +1,10 @@
 import {Command, Flags} from '@oclif/core' // might have flags later
-//import * as vc from '@digitalcredentials/vc' 
+import * as vc from '@digitalcredentials/vc' 
 
-const vc = require('@digitalbazaar/vc')
+//const vc = require('@digitalbazaar/vc')
 
 // @ts-ignore
-import {securityLoader} from 'documentLoader'
+import {securityLoader} from './documentLoader'
 
 const documentLoader = securityLoader().build()
 
