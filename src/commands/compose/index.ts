@@ -1,5 +1,5 @@
 import {Command, Flags} from '@oclif/core' // might have flags later
-//import '@digitalbazaar/vc'
+import * as vc from '@digitalbazaar/vc'
 import {documentLoader} from '@digitalbazaar/vc'
 
 export default class Compose extends Command {
