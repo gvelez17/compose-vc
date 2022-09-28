@@ -1,6 +1,12 @@
 import {Command, Flags} from '@oclif/core' // might have flags later
-import * as vc from '@digitalbazaar/vc'
-import {documentLoader} from '@digitalbazaar/vc'
+//import * as vc from '@digitalcredentials/vc' 
+
+const vc = require('@digitalbazaar/vc')
+
+// @ts-ignore
+import {securityLoader} from 'documentLoader'
+
+const documentLoader = securityLoader().build()
 
 export default class Compose extends Command {
   static description = 'compose some vcs'
