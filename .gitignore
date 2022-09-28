@@ -1,6 +1,5 @@
 node_modules/
 bin/
-package-lock.json
 .idea
 .pinning.store
 .vscode
